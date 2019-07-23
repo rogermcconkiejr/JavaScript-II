@@ -1,7 +1,24 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+function utah(){
+  let team = 'Utah Jazz';
+  let college = "University of Utah";
+  console.log(`The best team in the NBA is ${team} and the best college football team is the ${college}`);
 
+    function SLC(){
+        let mayor = "Jackie Biskupski";
+        let basketballPlayer = "Donovan Mitchell"
 
+        function neighborhood(){
+          let friend = "Jack";
+          let neighbor = "Carl";
+          let school = "East High";
+        }//neighborhood ends here
+        return neighborhood;
+    }//SLC ends here
+    return SLC;
+}//utah ends here
+console.log(utah());
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
 
